@@ -1,8 +1,5 @@
-module entrepro
+module repro
 
-go 1.14
+go 1.16
 
-require (
-	github.com/facebookincubator/ent v0.1.1
-	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
-)
+require entgo.io/ent v0.6.1-0.20210302154252-3a64e2d20d1c
